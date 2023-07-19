@@ -1,0 +1,33 @@
+
+body {
+  background-color: antiquewhite;
+}
+#root {
+  margin: 0 auto;
+  padding: auto;
+  text-align: center;
+  background-color: rgb(206, 128, 32);
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  width: 100vw;
+}
+
+.projects-content {
+  display: grid;
+  
+}
+
+
+
+
+
+
+
+
+
+
