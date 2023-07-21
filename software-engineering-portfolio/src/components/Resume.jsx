@@ -1,6 +1,9 @@
 const Resume = () => {
     return (
         <div className="resume-content">
+            <a href="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Official%20Resume%202023.pdf" target="_blank" rel="noopener noreferrer">
+    Click here to view the PDF
+  </a>
             <h1>Resume</h1>
             <h3>Bryan Velez</h3>
             <h4>Software Engineer</h4>
@@ -17,3 +20,5 @@ const Resume = () => {
 }
 
 export default Resume
+
+
