@@ -1,13 +1,16 @@
+import { Link } from "react-router-dom";
+
 const Resume = () => {
   return (
-    <div className="resume-content">
-      <a
-        href="file:///Users/bryanvelez/Downloads/Official%20Resume%202023.pdf"
+    <div className="resume-page">
+      <Link to={"https://drive.google.com/file/d/1nQWaFtQFjhg0WRs0wyEIP4tnWLKGuxaw/view?usp=sharing"} target="_blank" >Click here to view the PDF</Link>
+      {/* <a
+        href="https://drive.google.com/file/d/1nQWaFtQFjhg0WRs0wyEIP4tnWLKGuxaw/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
         Click here to view the PDF
-      </a>
+      </a> */}
       <h1>Resume</h1>
       <h3>Bryan Velez</h3>
       <h4>Software Engineer</h4>
@@ -33,7 +36,7 @@ const Resume = () => {
       </p>
       <h4>Technical Project Experience</h4>
       <p>
-        Battleship Live Site - Front-end web browser game of the two-player
+        Battleship - Front-end web browser game of the two-player
         classic board game Battleship Created a structured HTML file to set up a
         layout of the page. Used DOM manipulation methods to select and interact
         with elements in the HTML Insert Javascript code to provide transitions,
@@ -49,7 +52,7 @@ const Resume = () => {
         conditions.)
       </p>
       <p>
-        The Libation Station Live Site - React application that organizes and
+        The Libation Station - React application that organizes and
         cocktail API information on backend, and displays ingredients and
         recipes on the front end. Pair programmed with 2 software developers
         effectively, avoiding conflicts by applying version control and working
@@ -64,7 +67,6 @@ const Resume = () => {
         retrieve URL parameters. Implemented ES6 tagged template literals with
         Styled-Components along CSS3 to provide style and flexbox layout.
       </p>
-      <p>Battleship - Web browser game</p>
       <h4>Experience</h4>
       <p>
         Boston Beer Garden - Server/ Bartender October 2021-February 2023
