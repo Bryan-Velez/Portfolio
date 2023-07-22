@@ -45,23 +45,8 @@ Employed Object-Oriented-Programing principles by defining a class to create obj
 Manipulated CSS classes to control the appearance and behavior of HTML elements.
 Applied use of conditional statements to maneuver the flow of execution based on certain conditions. (valid ship placement, winning and losing conditions.)
 
-The Libation Station Live Site  -  React application that organizes and cocktail API information on backend, and displays ingredients and recipes on the front end.
-Pair programmed with 2 software developers effectively, avoiding conflicts by applying version control and working in our own branches, regular communication, and task delegation to build a fully functional React application..
-Imported and implemented necessary dependencies from different libraries, including React, axios, and react-router-dom.
-Integrated 3rd party API call by performing an asynchronous operation to fetch information for when the components mount.
-Engineered routes that render different components based on the current URL path.
-Utilized hooks to enable functional components to have state management, perform side effects, access location data, and retrieve URL parameters.
-Implemented ES6 tagged template literals with Styled-Components along CSS3 to provide style and flexbox layout.
 </p>
-<p>Battleship Live Site  - Front-end web browser game of the two-player classic board game Battleship
-Created a structured HTML file to set up a layout of the page.
-Used DOM manipulation methods to select and interact with elements in the HTML
-Insert Javascript code to provide transitions, pulls and animations within the game
-Created elements and arrays within Javascript to facilitate dry code and store and process data.
-Managed the use of Event listeners to add drag and drop and rotation functionality to the player ships as well as interaction with the enemy game board.
-Employed Object-Oriented-Programing principles by defining a class to create objects with specific properties.
-Manipulated CSS classes to control the appearance and behavior of HTML elements.
-Applied use of conditional statements to maneuver the flow of execution based on certain conditions. (valid ship placement, winning and losing conditions.)
+<p>
 
 The Libation Station Live Site  -  React application that organizes and cocktail API information on backend, and displays ingredients and recipes on the front end.
 Pair programmed with 2 software developers effectively, avoiding conflicts by applying version control and working in our own branches, regular communication, and task delegation to build a fully functional React application..
