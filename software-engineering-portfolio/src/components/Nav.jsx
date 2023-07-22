@@ -4,11 +4,7 @@ const Nav = () => {
     return (
 
         <div className="nav">
-            <div className="nav-logo">
-                <Link to="/">
-                    <img src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/mushroom.png?raw=true" alt="logo" style={{height: '75px'}}/>
-                </Link>
-            </div>
+           
             <div className="nav-links">
                 <Link to ="/">Home</Link>
                 <Link to ="/about">About</Link>

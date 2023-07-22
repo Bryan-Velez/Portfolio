@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Nav from './components/Nav'
+import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -16,7 +16,7 @@ function App() {
 
   return (
       <div className='app'>
-        <Nav/>
+        <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>

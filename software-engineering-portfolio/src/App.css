@@ -18,28 +18,52 @@ body {
   background-color: aliceblue;
   width: 100vw;
 }
+
+
+h1 {
+ 
+}
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Home Page */
 
 .home-page {
-  display: inline-flex
+  display: inline-flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+}
 
+.home-content {
+  padding: 15px;
 }
 
 .intro {
   text-align: left;
-  width: 35vw;
+  width: 40vw;
+  padding: 15px;
+  font-size: large;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
+/* About Page */
+
+.about-picture {
+  width: 30vw;
+  border: 10px solid;
+  border-image-slice: 1;
+  /* border-width: 7px; */
+  border-image-source: linear-gradient(to top, rgb(250, 250, 250), rgba(218, 128, 32, 0.141));
+  
+}
+
 .projects-page {
   display: grid;
   
 }
 .resume-page {
   width: 75vw;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
   margin: 0 auto;
 }
 
