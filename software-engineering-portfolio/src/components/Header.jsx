@@ -13,6 +13,13 @@ const Header = () => {
           style={{ height: "75px" }}
         />
       </Link>
+      <Link to="/" className="nav-logo">
+        <img
+          src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/mushroom.png?raw=true"
+          alt="logo"
+          style={{ height: "75px" }}
+        />
+      </Link>
 
       <Nav />
     </header>
