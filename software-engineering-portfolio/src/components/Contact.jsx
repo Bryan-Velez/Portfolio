@@ -21,7 +21,7 @@ const Contact = () => {
             style={{width:'100px'}}
           />
         </Link>
-        <Link to={"mailto:your.b.velez205@gmail.com"} target="_blank" rel="noopener noreferrer">
+        <Link to={"https://discord.gg/5chAwJqQ8v"} target="_blank" rel="noopener noreferrer">
           
           <img
             src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Mail%20Icon.png?raw=true"

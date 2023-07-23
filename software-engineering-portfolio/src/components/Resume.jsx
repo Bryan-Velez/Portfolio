@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="resume-page">
       <Link
         to={
-          "https://drive.google.com/file/d/1nQWaFtQFjhg0WRs0wyEIP4tnWLKGuxaw/view?usp=sharing"
+          "https://drive.google.com/file/d/1WVONmUVoQL4eWQa9_40oDneUCzAVq0ce/view?usp=sharing"
         }
         target="_blank"
         rel="noopener noreferrer"
@@ -14,14 +14,13 @@ const Resume = () => {
         <img
           src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Resume%20Icon.png?raw=true"
           alt=""
-          style={{ 
-            // border: '10px solid white', 
+          style={{
+            // border: '10px solid white',
             // borderRadius: '100px',
             width: "8vw",
-             }}
+          }}
         />
       </Link>
-
       <h1>Resume</h1>
       <h1>Bryan Velez</h1>
       <h2>Software Engineer</h2>
@@ -45,13 +44,19 @@ const Resume = () => {
         HTML | CSS | JavaScript | Node.js | Express | Github | MongoDB |
         Mongoose | React | Python | Django | SQL
       </p>
-      <h2>Technical Project Experience</h2>
-
-      <div>
-        <h3>
-          Battleship - Front-end web browser game of the two-player classic
-          board game Battleship
-        </h3>
+      ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●
+      ● ● ● ● ● ● ●
+      <h2 style={{backgroundImage:'radial-gradient(circle, black, rgb(208, 30, 240, 0))'}}>Technical Project Experience</h2>
+      <div
+        style={{
+          backgroundImage:
+            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+            borderTop: '2px solid white',
+        }}
+      >
+        <h3>Battleship</h3>
+        Front-end web browser game of the two-player classic board game
+        Battleship
         <ul style={{ textAlign: "left" }}>
           <li>
             Created a structured HTML file to set up a layout of the page.
@@ -91,67 +96,141 @@ const Resume = () => {
           </li>
         </ul>
       </div>
-
-      <h3>
-        The Libation Station - React application that organizes and cocktail API
-        information on backend, and displays ingredients and recipes on the
-        front end.
-      </h3>
-      <ul style={{ textAlign: "left" }}>
-        <li>
-          Pair programmed with 2 software developers effectively, avoiding
-          conflicts by applying version control and working in our own branches,
-          regular communication, and task delegation to build a fully functional
-          React application.
-        </li>
-        <li>
-          {" "}
-          Imported and implemented necessary dependencies from different
-          libraries, including React, axios, and react-router-dom.{" "}
-        </li>
-        <li>
-          Integrated 3rd party API call by performing an asynchronous operation
-          to fetch information for when the components mount.
-        </li>
-        <li>
-          Engineered routes that render different components based on the
-          current URL path.
-        </li>
-        <li>
-          {" "}
-          Utilized hooks to enable functional components to have state
-          management, perform side effects, access location data, and retrieve
-          URL parameters.
-        </li>
-        <li>
-          Implemented ES6 tagged template literals with Styled-Components along
-          CSS3 to provide style and flexbox layout.
-        </li>
-      </ul>
-
-      <h2>Experience</h2>
-      <p>
-        Boston Beer Garden - Server/ Bartender October 2021-February 2023
-        Demonstrated Comprehensive product knowledge encompassing the menu,
-        specials and events. Fostered positive relationships with customers,
-        resulting in heightened satisfaction and enhanced loyalty to the
-        restaurant. Contributed to the training of new hires, providing
-        necessary guidance and valuable insight into understanding company
-        policies, procedures, and in-depth knowledge of food and beverage
-        offerings.
-      </p>
-      <p>
-        Securitas Security Company - Security Officer October 2019-September
-        2021 Maintained community security through vigilant monitoring of
-        activities, directing the movement of residents and guests, and ensuring
-        a secure environment. Safeguarded the neighborhood by conducting regular
-        patrols to check for any signs of intrusion, damage, or potential
-        threats, while also ensuring all properties were properly secured.
-        Implemented a systematic and organized data logging process to record
-        and register visitor, resident, and vehicle information, contributing to
-        an efficient tracking system.
-      </p>
-      <h2>Education</h2>
+      <div
+        style={{
+          backgroundImage:
+            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+            // borderTop: '2px solid rgba(255, 255, 255, .4)'
+        }}
+      >
+        <h3>The Libation Station</h3>
+        React application that organizes and cocktail API information on
+        backend, and displays ingredients and recipes on the front end.
+        <ul style={{ textAlign: "left" }}>
+          <li>
+            Pair programmed with 2 software developers effectively, avoiding
+            conflicts by applying version control and working in our own
+            branches, regular communication, and task delegation to build a
+            fully functional React application.
+          </li>
+          <li>
+            {" "}
+            Imported and implemented necessary dependencies from different
+            libraries, including React, axios, and react-router-dom.{" "}
+          </li>
+          <li>
+            Integrated 3rd party API call by performing an asynchronous
+            operation to fetch information for when the components mount.
+          </li>
+          <li>
+            Engineered routes that render different components based on the
+            current URL path.
+          </li>
+          <li>
+            {" "}
+            Utilized hooks to enable functional components to have state
+            management, perform side effects, access location data, and retrieve
+            URL parameters.
+          </li>
+          <li>
+            Implemented ES6 tagged template literals with Styled-Components
+            along CSS3 to provide style and flexbox layout.
+          </li>
+        </ul>
+      </div>
+      <div
+        style={{
+          backgroundImage:
+            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+        }}
+      >
+        <h3> Daily Dish</h3>
+        MERN-stack application that allows users to create an account to a
+        weekly food subscription service.
+        <ul style={{ textAlign: "left" }}>
+          <li>
+            {" "}
+            Assigned specific tasks or features to individual team members
+            helping to minimize overlap and reduce the chances of conflicting
+            changes.
+          </li>
+          <li>
+            Maintained open and consistent communication among team members by
+            regularly discussing the progress of tasks, sharing updates, and
+            informing others about code changes.
+          </li>
+          <li>
+            Utilized React.js as the JavaScript library for building the
+            frontend.
+          </li>
+          <li>Employed React Context API for state management.</li>
+          <li>
+            Styled the application using custom SCSS and Bootstrap v5.3.0 for
+            responsive layouts.
+          </li>
+          <li>Used React Router v6.14.0 for client-side routing.</li>
+          <li>Integrated Stripe v1.54.1 and v2.1.1 for processing payments.</li>
+          <li>
+            Implemented user authentication with bcrypt.js v2.4.3 for password
+            hashing, allowing meal plan selection, payment processing, and user
+            account management features.
+          </li>
+          <li>
+            Assisted in backend by researching and populating seed data for
+            recipes & ingredients.
+          </li>
+          <li>
+            Responsible for managing the meal service selection process in the
+            application. Which navigates through steps allowing for user input
+            and interactions, calculates the total price based on selected
+            options, and manages the UI based on the current step.
+          </li>
+          <li>
+            Applied a mobile-first approach to the application's design for a
+            seamless experience across devices.
+          </li>
+        </ul>
+      </div>
+      ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●
+      ● ● ● ● ● ● ●
+      <div
+        style={{
+          backgroundImage:
+            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+        }}
+      >
+        <h2>Experience</h2>
+        <p>
+          Boston Beer Garden - Server/ Bartender October 2021-February 2023
+          Demonstrated Comprehensive product knowledge encompassing the menu,
+          specials and events. Fostered positive relationships with customers,
+          resulting in heightened satisfaction and enhanced loyalty to the
+          restaurant. Contributed to the training of new hires, providing
+          necessary guidance and valuable insight into understanding company
+          policies, procedures, and in-depth knowledge of food and beverage
+          offerings.
+        </p>
+        <p>
+          Securitas Security Company - Security Officer October 2019-September
+          2021 Maintained community security through vigilant monitoring of
+          activities, directing the movement of residents and guests, and
+          ensuring a secure environment. Safeguarded the neighborhood by
+          conducting regular patrols to check for any signs of intrusion,
+          damage, or potential threats, while also ensuring all properties were
+          properly secured. Implemented a systematic and organized data logging
+          process to record and register visitor, resident, and vehicle
+          information, contributing to an efficient tracking system.
+        </p>
+        <h2>Education</h2>
+        <p>
+          General Assembly | Software Engineering Immersive |Remote May
+          2023-August 2023
+        </p>
+        <p>
+          Florida Gulf Coast University | Bachelors in Business Management |
+          August 2012-May 2014
+        </p>
+      </div>
     </div>
   );
 };
