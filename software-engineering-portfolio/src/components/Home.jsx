@@ -9,12 +9,14 @@ const Home = () => {
         <img
           src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/About%20Picture.jpeg?raw=true"
           alt="Image Missing"
-          className="about-picture"
+          className="intro-picture"
         />
       </div>
-
+ <h2></h2>
       <p className="intro">
-        <h2>Welcome!</h2>
+      <strong style={{fontSize: '25px'}}> Welcome!</strong>
+      <br />
+      <br />
         My name is Bryan Velez.<br /> I'm a committed and enthusiastic software
         engineer with a flair for creative problem-solving and a keen eye for
         innovative design. Maintaining a focus on front-end development and

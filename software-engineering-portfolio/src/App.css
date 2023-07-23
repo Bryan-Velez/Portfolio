@@ -35,25 +35,30 @@ h1 {
 
 .home-content {
   padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro {
   text-align: left;
   width: 40vw;
   padding: 15px;
-  font-size: large;
+  font-size: 23px;
 }
+
+.intro-picture {
+  width: 35vw;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to top, rgb(250, 250, 250), rgba(218, 128, 32, 0.141));
+  justify-content: center;
+  
+}
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
 /* About Page */
 
-.about-picture {
-  width: 30vw;
-  border: 10px solid;
-  border-image-slice: 1;
-  /* border-width: 7px; */
-  border-image-source: linear-gradient(to top, rgb(250, 250, 250), rgba(218, 128, 32, 0.141));
-  
-}
 
 .projects-page {
   display: grid;
@@ -79,3 +84,42 @@ h1 {
 
 
 
+
+@media screen and (max-width: 1600px) {
+  .intro {
+    font-size: 20px;
+  }
+  .about-page {
+    width: 75vw;
+    /* display: flex;
+    justify-content: center; */
+ 
+  }
+}
+@media screen and (max-width: 1200px) {
+  .intro {
+    font-size: 17px;
+    text-align: center;
+    padding: 0 20px; 
+    width: 70vw;
+  }
+  .home-page {
+    flex-direction: column; 
+    justify-content: center;
+  }
+  .intro-picture {
+    width: 55vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro {
+    font-size: 12px;
+  }
+}
