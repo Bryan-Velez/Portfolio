@@ -12,9 +12,13 @@ const Resume = () => {
       >
         Click here to view the PDF
         <img
-          src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Gmail%20Icon.png?raw=true"
+          src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Resume%20Icon.png?raw=true"
           alt=""
-          style={{ border: "10px solid white", width: "10vw" }}
+          style={{ 
+            // border: '10px solid white', 
+            // borderRadius: '100px',
+            width: "8vw",
+             }}
         />
       </Link>
 
