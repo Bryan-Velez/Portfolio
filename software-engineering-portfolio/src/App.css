@@ -98,8 +98,20 @@ h1 {
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Contact Page */
+.contact-page {
+
+}
+
 .contact-links {
-  /* display: grid; */
+  width: 150px;
+  height: 400px;
+  background-color: aliceblue;
+  border: solid purple 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
 }
 
 
