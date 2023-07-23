@@ -7,7 +7,7 @@ const Projects = () => {
       
      
       <p>
-          <a href="https://bryanbattleship.surge.sh/" target="blank">
+          <a href="https://bryanbattleship.surge.sh/" target="blank" rel="noopener noreferrer">
         Battleship Game
       </a>
         : <br />Languages Used: HTML, JavaScript, CSS Function:
@@ -16,7 +16,7 @@ const Projects = () => {
         on a grid and attempting to guess the location of the opponent's ships.
       </p>
       <p>
-    <a href="https://thelibationstation.netlify.app/" target="blank">
+    <a href="https://thelibationstation.netlify.app/" target="blank" rel="noopener noreferrer">
         The Libation Station
       </a>
         : <br /> Languages Used: React (JavaScript, JSX),
@@ -25,7 +25,7 @@ const Projects = () => {
         the front end. Users can explore various cocktails and their recipes.
       </p>
       <p>
-     <a href="https://daily-dish.netlify.app/" target="blank">
+     <a href="https://daily-dish.netlify.app/" target="blank" rel="noopener noreferrer">
         DailyDish
       </a>
        : <br />Languages Used: MERN-stack (MongoDB, Express.js,

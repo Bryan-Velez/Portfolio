@@ -12,9 +12,9 @@ const Home = () => {
           className="intro-picture"
         />
       </div>
- <h2></h2>
+
       <p className="intro">
-      <strong style={{fontSize: '25px'}}> Welcome!</strong>
+      <strong style={{fontSize: '30px'}} className="welcome"> Welcome!</strong>
       <br />
       <br />
         My name is Bryan Velez.<br /> I'm a committed and enthusiastic software
