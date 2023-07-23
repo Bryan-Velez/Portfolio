@@ -3,17 +3,20 @@ import { Link } from "react-router-dom";
 const Resume = () => {
   return (
     <div className="resume-page">
-      <Link to={"https://drive.google.com/file/d/1nQWaFtQFjhg0WRs0wyEIP4tnWLKGuxaw/view?usp=sharing"} target="_blank" >Click here to view the PDF</Link>
-      {/* <a
-        href="https://drive.google.com/file/d/1nQWaFtQFjhg0WRs0wyEIP4tnWLKGuxaw/view?usp=sharing"
+      <Link
+        to={
+          "https://drive.google.com/file/d/1nQWaFtQFjhg0WRs0wyEIP4tnWLKGuxaw/view?usp=sharing"
+        }
         target="_blank"
         rel="noopener noreferrer"
       >
+        <img src="" alt="" />
         Click here to view the PDF
-      </a> */}
+      </Link>
+    
       <h1>Resume</h1>
-      <h3>Bryan Velez</h3>
-      <h4>Software Engineer</h4>
+      <h1>Bryan Velez</h1>
+      <h2>Software Engineer</h2>
       <p>
         Dedicated software engineer with a passion for creating innovative
         designs that align with consumer demand in finding solutions and
@@ -29,45 +32,65 @@ const Resume = () => {
         all. Moreover, I aim to provide user-friendly and effective results by
         incorporating functionality and aesthetics.
       </p>
-      <h4>Skills and Expertise</h4>
+      <h2>Skills and Expertise</h2>
       <p>
         HTML | CSS | JavaScript | Node.js | Express | Github | MongoDB |
         Mongoose | React | Python | Django | SQL
       </p>
-      <h4>Technical Project Experience</h4>
-      <p>
-        Battleship - Front-end web browser game of the two-player
-        classic board game Battleship Created a structured HTML file to set up a
-        layout of the page. Used DOM manipulation methods to select and interact
-        with elements in the HTML Insert Javascript code to provide transitions,
-        pulls and animations within the game Created elements and arrays within
-        Javascript to facilitate dry code and store and process data. Managed
-        the use of Event listeners to add drag and drop and rotation
-        functionality to the player ships as well as interaction with the enemy
-        game board. Employed Object-Oriented-Programing principles by defining a
-        class to create objects with specific properties. Manipulated CSS
-        classes to control the appearance and behavior of HTML elements. Applied
-        use of conditional statements to maneuver the flow of execution based on
-        certain conditions. (valid ship placement, winning and losing
-        conditions.)
-      </p>
-      <p>
-        The Libation Station - React application that organizes and
-        cocktail API information on backend, and displays ingredients and
-        recipes on the front end. Pair programmed with 2 software developers
-        effectively, avoiding conflicts by applying version control and working
-        in our own branches, regular communication, and task delegation to build
-        a fully functional React application.. Imported and implemented
-        necessary dependencies from different libraries, including React, axios,
-        and react-router-dom. Integrated 3rd party API call by performing an
+      <h2>Technical Project Experience</h2>
+
+      <div>
+        <h3>Battleship - Front-end web browser game of the two-player classic board
+        game Battleship</h3>
+        <ul style={{textAlign:'left'}}>
+          <li>Created a structured HTML file to set up a layout of the page.</li>
+          <li> Used
+          DOM manipulation methods to select and interact with elements in the
+          HTML </li>
+          <li>Inserted Javascript code to provide transitions, pulls and
+          animations within the game</li>
+          <li>Created elements and arrays within
+          Javascript to facilitate dry code and store and process data.</li>
+          <li>Managed
+          the use of Event listeners to add drag and drop and rotation
+          functionality to the player ships as well as interaction with the
+          enemy game board.</li>
+          <li> Employed Object-Oriented-Programing principles by
+          defining a class to create objects with specific properties.</li>
+          <li> Manipulated CSS classes to control the appearance and behavior of HTML
+          element.</li>
+          <li>Applied use of conditional statements to maneuver the flow
+          of execution based on certain conditions. (valid ship placement,
+          winning and losing conditions.)</li>
+          
+        </ul>
+      </div>
+      
+      <h3>
+        The Libation Station - React application that organizes and cocktail API
+        information on backend, and displays ingredients and recipes on the
+        front end.</h3> 
+        <ul style={{textAlign:'left'}}>
+          <li>Pair programmed with 2 software developers effectively,
+        avoiding conflicts by applying version control and working in our own
+        branches, regular communication, and task delegation to build a fully
+        functional React application.</li>
+        <li> Imported and implemented necessary
+        dependencies from different libraries, including React, axios, and
+        react-router-dom. </li>
+        <li>Integrated 3rd party API call by performing an
         asynchronous operation to fetch information for when the components
-        mount. Engineered routes that render different components based on the
-        current URL path. Utilized hooks to enable functional components to have
+        mount.</li> 
+        <li>Engineered routes that render different components based on the
+        current URL path.</li>
+        <li> Utilized hooks to enable functional components to have
         state management, perform side effects, access location data, and
-        retrieve URL parameters. Implemented ES6 tagged template literals with
-        Styled-Components along CSS3 to provide style and flexbox layout.
-      </p>
-      <h4>Experience</h4>
+        retrieve URL parameters.</li> 
+        <li>Implemented ES6 tagged template literals with
+        Styled-Components along CSS3 to provide style and flexbox layout.</li>
+        </ul>
+      
+      <h2>Experience</h2>
       <p>
         Boston Beer Garden - Server/ Bartender October 2021-February 2023
         Demonstrated Comprehensive product knowledge encompassing the menu,
@@ -89,7 +112,7 @@ const Resume = () => {
         and register visitor, resident, and vehicle information, contributing to
         an efficient tracking system.
       </p>
-      <h4>Education</h4>
+      <h2>Education</h2>
     </div>
   );
 };
