@@ -10,10 +10,14 @@ const Resume = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="" alt="" />
         Click here to view the PDF
+        <img
+          src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Gmail%20Icon.png?raw=true"
+          alt=""
+          style={{ border: "10px solid white", width: "10vw" }}
+        />
       </Link>
-    
+
       <h1>Resume</h1>
       <h1>Bryan Velez</h1>
       <h2>Software Engineer</h2>
@@ -40,56 +44,87 @@ const Resume = () => {
       <h2>Technical Project Experience</h2>
 
       <div>
-        <h3>Battleship - Front-end web browser game of the two-player classic board
-        game Battleship</h3>
-        <ul style={{textAlign:'left'}}>
-          <li>Created a structured HTML file to set up a layout of the page.</li>
-          <li> Used
-          DOM manipulation methods to select and interact with elements in the
-          HTML </li>
-          <li>Inserted Javascript code to provide transitions, pulls and
-          animations within the game</li>
-          <li>Created elements and arrays within
-          Javascript to facilitate dry code and store and process data.</li>
-          <li>Managed
-          the use of Event listeners to add drag and drop and rotation
-          functionality to the player ships as well as interaction with the
-          enemy game board.</li>
-          <li> Employed Object-Oriented-Programing principles by
-          defining a class to create objects with specific properties.</li>
-          <li> Manipulated CSS classes to control the appearance and behavior of HTML
-          element.</li>
-          <li>Applied use of conditional statements to maneuver the flow
-          of execution based on certain conditions. (valid ship placement,
-          winning and losing conditions.)</li>
-          
+        <h3>
+          Battleship - Front-end web browser game of the two-player classic
+          board game Battleship
+        </h3>
+        <ul style={{ textAlign: "left" }}>
+          <li>
+            Created a structured HTML file to set up a layout of the page.
+          </li>
+          <li>
+            {" "}
+            Used DOM manipulation methods to select and interact with elements
+            in the HTML{" "}
+          </li>
+          <li>
+            Inserted Javascript code to provide transitions, pulls and
+            animations within the game
+          </li>
+          <li>
+            Created elements and arrays within Javascript to facilitate dry code
+            and store and process data.
+          </li>
+          <li>
+            Managed the use of Event listeners to add drag and drop and rotation
+            functionality to the player ships as well as interaction with the
+            enemy game board.
+          </li>
+          <li>
+            {" "}
+            Employed Object-Oriented-Programing principles by defining a class
+            to create objects with specific properties.
+          </li>
+          <li>
+            {" "}
+            Manipulated CSS classes to control the appearance and behavior of
+            HTML element.
+          </li>
+          <li>
+            Applied use of conditional statements to maneuver the flow of
+            execution based on certain conditions. (valid ship placement,
+            winning and losing conditions.)
+          </li>
         </ul>
       </div>
-      
+
       <h3>
         The Libation Station - React application that organizes and cocktail API
         information on backend, and displays ingredients and recipes on the
-        front end.</h3> 
-        <ul style={{textAlign:'left'}}>
-          <li>Pair programmed with 2 software developers effectively,
-        avoiding conflicts by applying version control and working in our own
-        branches, regular communication, and task delegation to build a fully
-        functional React application.</li>
-        <li> Imported and implemented necessary
-        dependencies from different libraries, including React, axios, and
-        react-router-dom. </li>
-        <li>Integrated 3rd party API call by performing an
-        asynchronous operation to fetch information for when the components
-        mount.</li> 
-        <li>Engineered routes that render different components based on the
-        current URL path.</li>
-        <li> Utilized hooks to enable functional components to have
-        state management, perform side effects, access location data, and
-        retrieve URL parameters.</li> 
-        <li>Implemented ES6 tagged template literals with
-        Styled-Components along CSS3 to provide style and flexbox layout.</li>
-        </ul>
-      
+        front end.
+      </h3>
+      <ul style={{ textAlign: "left" }}>
+        <li>
+          Pair programmed with 2 software developers effectively, avoiding
+          conflicts by applying version control and working in our own branches,
+          regular communication, and task delegation to build a fully functional
+          React application.
+        </li>
+        <li>
+          {" "}
+          Imported and implemented necessary dependencies from different
+          libraries, including React, axios, and react-router-dom.{" "}
+        </li>
+        <li>
+          Integrated 3rd party API call by performing an asynchronous operation
+          to fetch information for when the components mount.
+        </li>
+        <li>
+          Engineered routes that render different components based on the
+          current URL path.
+        </li>
+        <li>
+          {" "}
+          Utilized hooks to enable functional components to have state
+          management, perform side effects, access location data, and retrieve
+          URL parameters.
+        </li>
+        <li>
+          Implemented ES6 tagged template literals with Styled-Components along
+          CSS3 to provide style and flexbox layout.
+        </li>
+      </ul>
+
       <h2>Experience</h2>
       <p>
         Boston Beer Garden - Server/ Bartender October 2021-February 2023
