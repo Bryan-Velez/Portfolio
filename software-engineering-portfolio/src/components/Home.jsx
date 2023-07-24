@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
-import { CSSTransition } from "react-transition-group";
+// import { CSSTransition } from "react-transition-group";
 
 const Home = () => {
   return (
-    <CSSTransition
-      in={true} // You can use a state to control this based on route changes
-      timeout={500}
-      classNames="page"
-      unmountOnExit
-    >
+    // <CSSTransition
+    //   in={true} // You can use a state to control this based on route changes
+    //   timeout={500}
+    //   classNames="page"
+    //   unmountOnExit
+    // >
       <div className="home-page page">
         <div className="home-content">
           <img
@@ -47,7 +47,7 @@ const Home = () => {
           tomorrow's digital landscape together.
         </p>
       </div>
-    </CSSTransition>
+    // </CSSTransition>
   );
 };
 
