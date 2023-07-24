@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <div className="projects-page">
+    <div className="projects-page page">
       <p>
         <a
           href="https://bryanbattleship.surge.sh/"

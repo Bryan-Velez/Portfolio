@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className="contact-page">
+    <div className="contact-page page">
       <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Contact Me</h2>
       <div className="contact-links">
         <Link to={"https://www.linkedin.com/in/bryanvelez-se/"} target="_blank" rel="noopener noreferrer">

@@ -2,26 +2,28 @@ import { Link } from "react-router-dom";
 
 const Resume = () => {
   return (
-    <div className="resume-page">
+    <div className="resume-page page">
+      <h1 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Resume</h1>
       <Link
         to={
           "https://drive.google.com/file/d/1WVONmUVoQL4eWQa9_40oDneUCzAVq0ce/view?usp=sharing"
         }
         target="_blank"
         rel="noopener noreferrer"
-      >
-        Click here to view the PDF
+        >
+        
         <img
           src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Resume%20Icon.png?raw=true"
           alt=""
           style={{
-            // border: '10px solid white',
-            // borderRadius: '100px',
-            width: "8vw",
+            border: '10px solid white',
+            borderRadius: '12px',
+            padding: '40px',
+            backgroundColor: 'silver',
+            width: "400px",
           }}
-        />
+          /> <p>Click here to view the PDF</p>
       </Link>
-      <h1>Resume</h1>
       <h1>Bryan Velez</h1>
       <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Software Engineer</h2>
       <p>

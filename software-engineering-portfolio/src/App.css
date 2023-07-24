@@ -1,31 +1,67 @@
+* {
+ padding: 0;
+ box-sizing: border-box;
+}
 
 body {
+  position: relative;
   background-image: url(https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Purple%20Rain%20Gif.gif?raw=true)
 }
+
+/* body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  transform: rotate(180deg);
+} */
 
 #root {
   margin: 0 auto;
   padding: auto;
   text-align: center;
   background-image: linear-gradient(to top, rgb(208, 30, 240), rgb(0, 0, 0));
-  /* border-image-slice: 1;
-  border-image-source: linear-gradient(to bottom, rgb(208, 30, 240), rgb(0, 0, 0));
-  border-left: 30px solid; */
+  border-image-slice: 1;
+  /* border-image-source: linear-gradient(to top, rgb(208, 30, 240), rgb(255, 255, 255));
+  border-left: 30px solid;
+  border-style:dashed; */
   display: flex;
 }
 
-
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  background-color: aliceblue;
-  width: 100vw;
+.page {
+  /* opacity: 0;
+  transform: translateX(-100%); */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
+/* .page.show {
+  opacity: 1;
+  transform: translateX(0);
+} */
 
-h1 {
- 
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
 }
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Header */
@@ -35,6 +71,7 @@ h1 {
   background-position: center;
   border-top: 15px solid white;
 }
+
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -43,6 +80,13 @@ h1 {
 
 .github-icon {
   padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  width: 100vw;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -61,11 +105,55 @@ h1 {
   justify-content: center;
 }
 
+.welcome {
+  padding: 4px 10px;
+  background-color: rgba(255, 255, 255, 0.479);
+  border: 3px solid rgb(208, 30, 240);
+  border-radius: 8px;
+  color: black;
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 25%;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid rgb(208, 30, 240); /* Optional: Add a cursor effect */
+  animation: typing 0.5s steps(50, end)1;
+}
+
+.typing-animation::after {
+  content: '|'; /* The cursor symbol (customize as needed) */
+  display: inline-block;
+  width: 10px; /* Adjust the cursor width */
+  animation: blink 0.7s infinite; /* Blinking animation */
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
 .intro {
   text-align: left;
   width: 40vw;
   padding: 15px;
   font-size: 23px;
+
 }
 
 .intro-picture {
@@ -74,7 +162,6 @@ h1 {
   border-image-slice: 1;
   border-image-source: linear-gradient(to top, rgb(250, 250, 250), rgba(218, 128, 32, 0.141));
   justify-content: center;
-  
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
