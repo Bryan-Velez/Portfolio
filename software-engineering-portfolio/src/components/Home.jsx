@@ -25,6 +25,7 @@ const Home = () => {
           >
             {" "}
             Welcome!
+
           </strong>
           <br />
           <br />
