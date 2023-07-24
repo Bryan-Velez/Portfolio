@@ -4,8 +4,8 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-content">
-        <h1>Bryan Velez</h1>
+      <div className="header-content" >
+        <h1 style={{textShadow:'6px 6px 8px rgb(208,30,240)', fontSize: '80px', padding: '20px'}}>Bryan Velez</h1>
         {/* <Link to="/" className="nav-logo">
           <img
             src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/mushroom.png?raw=true"
@@ -22,7 +22,7 @@ const Header = () => {
           <img
             src="https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Github%20Icon%202.png?raw=true"
             alt="logo"
-            style={{ height: "75px" }}
+            style={{ height: "80px" }}
             className="github-icon"
           />
         </Link>

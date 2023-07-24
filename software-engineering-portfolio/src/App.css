@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(https://media.tenor.com/ga_-GfdZDtkAAAAC/purple-rain-wallpaper.gif)
+  background-image: url(https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Purple%20Rain%20Gif.gif?raw=true)
 }
 
 #root {
@@ -8,6 +8,9 @@ body {
   padding: auto;
   text-align: center;
   background-image: linear-gradient(to top, rgb(208, 30, 240), rgb(0, 0, 0));
+  /* border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, rgb(208, 30, 240), rgb(0, 0, 0));
+  border-left: 30px solid; */
   display: flex;
 }
 
@@ -27,20 +30,19 @@ h1 {
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Header */
 .header {
-  background-image: url(https://media.tenor.com/ga_-GfdZDtkAAAAC/purple-rain-wallpaper.gif);
+  background-image: url(https://github.com/Bryan-Velez/Portfolio/blob/main/software-engineering-portfolio/src/assets/Purple%20Gif.gif?raw=true);
   background-size: cover;
   background-position: center;
+  border-top: 15px solid white;
 }
 .header-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .github-icon {
   padding: 20px;
-  align-self: flex-end;
-  
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -99,18 +101,19 @@ h1 {
 /* //////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Contact Page */
 .contact-page {
-
+  display:inline-block;
 }
 
 .contact-links {
   width: 150px;
   height: 400px;
-  background-color: aliceblue;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.677), rgb(36, 30, 185));
   border: solid purple 5px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  float:inline-end;
   
 }
 

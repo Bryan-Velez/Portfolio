@@ -23,7 +23,7 @@ const Resume = () => {
       </Link>
       <h1>Resume</h1>
       <h1>Bryan Velez</h1>
-      <h2>Software Engineer</h2>
+      <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Software Engineer</h2>
       <p>
         Dedicated software engineer with a passion for creating innovative
         designs that align with consumer demand in finding solutions and
@@ -39,22 +39,22 @@ const Resume = () => {
         all. Moreover, I aim to provide user-friendly and effective results by
         incorporating functionality and aesthetics.
       </p>
-      <h2>Skills and Expertise</h2>
+      <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Skills and Expertise</h2>
       <p>
         HTML | CSS | JavaScript | Node.js | Express | Github | MongoDB |
         Mongoose | React | Python | Django | SQL
       </p>
       ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●
       ● ● ● ● ● ● ●
-      <h2 style={{backgroundImage:'radial-gradient(circle, black, rgb(208, 30, 240, 0))'}}>Technical Project Experience</h2>
+      <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Technical Project Experience</h2>
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+          "linear-gradient( to right, rgb(208, 30, 240, 0), black, rgb(208, 30, 240, 0))",
             borderTop: '2px solid white',
         }}
       >
-        <h3>Battleship</h3>
+        <h3 style={{backgroundImage: "linear-gradient( to right, rgb(208, 30, 240, 0), grey, rgb(208, 30, 240, 0))"}}>Battleship</h3>
         Front-end web browser game of the two-player classic board game
         Battleship
         <ul style={{ textAlign: "left" }}>
@@ -99,11 +99,11 @@ const Resume = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+          "linear-gradient( to right, rgb(208, 30, 240, 0), black, rgb(208, 30, 240, 0))",
             // borderTop: '2px solid rgba(255, 255, 255, .4)'
         }}
       >
-        <h3>The Libation Station</h3>
+        <h3 style={{backgroundImage: "linear-gradient( to right, rgb(208, 30, 240, 0), grey, rgb(208, 30, 240, 0))"}}>The Libation Station</h3>
         React application that organizes and cocktail API information on
         backend, and displays ingredients and recipes on the front end.
         <ul style={{ textAlign: "left" }}>
@@ -141,10 +141,10 @@ const Resume = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+          "linear-gradient( to right, rgb(208, 30, 240, 0), black, rgb(208, 30, 240, 0))",
         }}
       >
-        <h3> Daily Dish</h3>
+        <h3 style={{backgroundImage: "linear-gradient( to right, rgb(208, 30, 240, 0), grey, rgb(208, 30, 240, 0))"}}> Daily Dish</h3>
         MERN-stack application that allows users to create an account to a
         weekly food subscription service.
         <ul style={{ textAlign: "left" }}>
@@ -196,10 +196,11 @@ const Resume = () => {
       <div
         style={{
           backgroundImage:
-            "radial-gradient(circle, black, rgb(208, 30, 240, 0))",
+            "linear-gradient( to right, rgb(208, 30, 240, 0), black, rgb(208, 30, 240, 0))",
+            borderBottom: "2px solid white"
         }}
       >
-        <h2>Experience</h2>
+        <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Experience</h2>
         <p>
           Boston Beer Garden - Server/ Bartender October 2021-February 2023
           Demonstrated Comprehensive product knowledge encompassing the menu,
@@ -221,7 +222,7 @@ const Resume = () => {
           process to record and register visitor, resident, and vehicle
           information, contributing to an efficient tracking system.
         </p>
-        <h2>Education</h2>
+        <h2 style={{backgroundImage:'radial-gradient(circle, white, rgb(208, 30, 240, 0))', color: 'black'}}>Education</h2>
         <p>
           General Assembly | Software Engineering Immersive |Remote May
           2023-August 2023
